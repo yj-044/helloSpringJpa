@@ -135,6 +135,7 @@
         </div>
 
     </form>
+    <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss') + ' | 학번: 2391042 | 성명: 조윤지'}"></p>
 
 </body>
 </html>
